@@ -1,3 +1,9 @@
+/*
+ * Copyright (c) 2021 by George Tarasov (aka itarient)
+ *
+ * Licensed under the MIT License (See LICENSE file).
+ */
+
 #include <type_traits>
 #include <iostream>
 
@@ -75,7 +81,7 @@ int isqrt(unsigned N)
 
 int main(int argc, char* argv[])
 {
-    const unsigned N = 131072;
+    const unsigned N = 131071;
     std::cout << isqrt(N) << std::endl;
 
     typedef isqrt_t<N> isqrtN_t;

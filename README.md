@@ -7,3 +7,13 @@ There are two implementations here. The first uses C++ temlates, the second uses
 These implementations have two foundamental limitations.
 1) They consider only unsigned data types (and no other integer types are possible).
 2) The largest value from which the integer part of the square root can be computed is (2 * 0x10000) - 1 = (2 * 65536) - 1 = 131071.
+
+# Build
+
+mkdir build ; cd ./build
+cmake ..
+make
+
+# Run
+
+./isqrt
